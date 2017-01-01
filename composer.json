@@ -1,0 +1,16 @@
+{
+    "name": "geeek/openkarotz-tts-ibm-watson",
+    "description": "A bridge for OpenKarotz TTS using IBM Watson API",
+    "type": "project",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Ludovic Toinel",
+            "email": "ludovic@toinel.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "b-b3rn4rd/phplame": "dev-master"
+    }
+}
