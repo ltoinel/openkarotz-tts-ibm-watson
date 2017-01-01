@@ -6,6 +6,8 @@
  * @author:  Ludovic Toinel <ludovic@toinel.com>
  */
 
+require 'vendor/autoload.php';
+
 require 'lib/watson.php';
 require 'lib/encoder.php';
 

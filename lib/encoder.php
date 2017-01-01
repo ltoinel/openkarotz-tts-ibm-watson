@@ -1,7 +1,5 @@
 <?php
 
-require '../vendor/autoload.php';
-
 use Lame\Lame;
 use Lame\Settings;
 
