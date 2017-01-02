@@ -23,6 +23,11 @@ function voiceSynthesis($text, $format){
         $header_accept = "Accept: audio/wav";
         $param_accept = "&accept=audio%2Fwav";
         $extension = "wav";
+
+    } else if ($format == "mp3") {
+        $header_accept = "Accept: audio/wav";
+        $param_accept = "&accept=audio%2Fwav";
+        $extension = "wav";
     }
 
     // Generate an ID.

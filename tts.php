@@ -57,7 +57,6 @@ $download_file_path = voiceSynthesis($text, $format);
 // If MP3 format is requested
 if ($format == "mp3") {
     encodeToMp3($download_file_path, $sound_file_path);
-
 }
 
 $response = file_get_contents($sound_file_path);
