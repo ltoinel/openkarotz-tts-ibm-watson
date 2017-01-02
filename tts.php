@@ -41,6 +41,7 @@ if ($format == "ogg") {
 }
 
 // Building the sound file path
+$id = md5($text);
 $sound_file_path = "./tmp/$id.$extension";
 
 // Check if the file already exists in the temp directory
