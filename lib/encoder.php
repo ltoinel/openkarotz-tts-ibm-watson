@@ -23,7 +23,11 @@ function encodeToMp3($input_file, $output_file)
     $encoding->setType(Settings\Encoding\Preset::TYPE_STANDARD);
 
     // Lame settings.
-    $settings = new Settings\Settings($encoding);
+    $settings = new Settings\Settings($encoding, array(
+        '-q'        => 0,
+        '-m'        => 'm',
+        '--scale'   => 1.5,
+    ));
 
     // Create a new Lame instance.
     $lame = new Lame($lame_path, $settings);
